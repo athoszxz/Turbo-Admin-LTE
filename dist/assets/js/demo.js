@@ -349,7 +349,6 @@
         var uri = window.location.pathname;
         var uri = uri.replace('.html', '');
         var uri = uri.replace('/', '');
-        console.log(uri);
         if (uri == "") {
             $('#index').addClass('active');
             return;
