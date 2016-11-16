@@ -1,0 +1,19 @@
+{
+  "name": "Diffy",
+  "version": "0.0.1",
+  "main": "dist/js/app.min.js",
+  "repository": {
+    "type": "git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "gulp-clean": "~0.3.2",
+    "browser-sync": "~2.17.6",
+    "gulp-nunjucks-html": "~2.0.0",
+    "gulp-watch": "~4.3.10",
+    "gulp-less": "~3.3.0",
+    "gulp-cssmin": "~0.1.7",
+    "gulp-rename": "~1.2.2"
+  }
+}
