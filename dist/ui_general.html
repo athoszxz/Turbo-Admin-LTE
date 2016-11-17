@@ -16,6 +16,37 @@
     <link rel="stylesheet" href="assets/css/turbolte.min.css">
 
     
+<style>
+    .color-palette {
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .color-palette-set {
+        margin-bottom: 15px;
+    }
+
+    .color-palette span {
+        display: none;
+        font-size: 12px;
+    }
+
+    .color-palette:hover span {
+        display: block;
+    }
+
+    .color-palette-box h4 {
+        position: absolute;
+        top: 100%;
+        left: 25px;
+        margin-top: -40px;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 12px;
+        display: block;
+        z-index: 7;
+    }
+</style>
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -25,7 +56,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body class="hold-transition sidebar-mini">
+<body class="sidebar-mini skin-blue">
 <div class="wrapper">
 
     <header class="main-header">
@@ -342,7 +373,7 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="pages/UI/general.html"> General</a></li>
+                    <li id="ui_general"><a href="ui_general.html"> General</a></li>
                     <li><a href="pages/UI/icons.html"> Icons</a></li>
                     <li><a href="pages/UI/buttons.html"> Buttons</a></li>
                     <li><a href="pages/UI/sliders.html"> Sliders</a></li>
@@ -1382,7 +1413,7 @@
     <div class="pull-right hidden-xs">
         <b>Version</b> 2.3.7
     </div>
-    <strong>Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
+    <strong>Copyright &copy; 2014-2016 <a href="javascript;"> Turbo Admin LTE</a>.</strong> All rights
     reserved.
 </footer>
 
