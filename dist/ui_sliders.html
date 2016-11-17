@@ -13,7 +13,14 @@
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     
-    
+<!-- Ion Slider -->
+<link rel="stylesheet" href="assets/plugins/ionslider/ion.rangeSlider.css">
+<!-- ion slider Nice -->
+<link rel="stylesheet" href="assets/plugins/ionslider/ion.rangeSlider.skinNice.css">
+<!-- bootstrap slider -->
+<link rel="stylesheet" href="assets/plugins/bootstrap-slider/slider.css">
+<!-- Theme style -->
+
     <!-- Theme style -->
     <link rel="stylesheet" href="assets/css/turbolte.min.css">
 
@@ -463,10 +470,10 @@
         <section class="content-header">
             <h1>
                 
-                Inline
+                
                 
 
-                <small>js</small>
+                <small></small>
             </h1>
             <ol class="breadcrumb">
                 <li><a href="#"><i class="fa fa-dashboard"></i>Home</a></li>
@@ -477,428 +484,91 @@
         <!-- Main content -->
         <section class="content">
             
-<div class="row">
-    <div class="col-md-12">
-        <div class="box">
-            <div class="box-header with-border">
-                <h3 class="box-title">jQuery Knob</h3>
-            </div>
-            <div class="box-body">
-                <div class="chart">
-                    Read more at the website: <a
-                        href="http://anthonyterrien.com/knob/">http://anthonyterrien.com/knob/</a>
-                    </p>
-                    <a href="https://github.com/aterrien/jQuery-Knob"><i class="fa fa-github fa-2x"></i> Github
-                        repository</a>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box box-primary">
+                <div class="box-header">
+                    <h3 class="box-title">Ion Slider</h3>
                 </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="row margin">
+                        <div class="col-sm-6">
+                            <input id="range_1" type="text" name="range_1" value="">
+                        </div>
+
+                        <div class="col-sm-6">
+                            <input id="range_2" type="text" name="range_2" value="1000;100000" data-type="double" data-step="500" data-postfix=" &euro;" data-from="30000" data-to="90000" data-hasgrid="true">
+                        </div>
+                    </div>
+                    <div class="row margin">
+                        <div class="col-sm-6">
+                            <input id="range_5" type="text" name="range_5" value="">
+                        </div>
+                        <div class="col-sm-6">
+                            <input id="range_6" type="text" name="range_6" value="">
+                        </div>
+                    </div>
+                    <div class="row margin">
+                        <div class="col-sm-12">
+                            <input id="range_4" type="text" name="range_4" value="10000;100000">
+                        </div>
+                    </div>
+                </div>
+                <!-- /.box-body -->
             </div>
-            <!-- /.box-body -->
+            <!-- /.box -->
         </div>
+        <!-- /.col -->
     </div>
-</div>
-<!-- row -->
-<div class="row">
-    <div class="col-xs-12">
-        <!-- jQuery Knob -->
-        <div class="box box-solid">
-            <div class="box-header">
-                <i class="fa fa-bar-chart-o"></i>
+    <!-- /.row -->
 
-                <h3 class="box-title">jQuery Knob</h3>
-
-                <div class="box-tools pull-right">
-                    <button type="button" class="btn btn-default btn-sm" data-widget="collapse"><i
-                            class="fa fa-minus"></i>
-                    </button>
-                    <button type="button" class="btn btn-default btn-sm" data-widget="remove"><i
-                            class="fa fa-times"></i>
-                    </button>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box box-primary">
+                <div class="box-header">
+                    <h3 class="box-title">Bootstrap Slider</h3>
                 </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="row margin">
+                        <div class="col-sm-6">
+                            <input type="text" value="" class="slider form-control" data-slider-min="-200" data-slider-max="200" data-slider-step="5" data-slider-value="[-100,100]" data-slider-orientation="horizontal" data-slider-selection="before" data-slider-tooltip="show" data-slider-id="red">
+
+                            <p>data-slider-id="red"</p>
+                            <input type="text" value="" class="slider form-control" data-slider-min="-200" data-slider-max="200" data-slider-step="5" data-slider-value="[-100,100]" data-slider-orientation="horizontal" data-slider-selection="before" data-slider-tooltip="show" data-slider-id="blue">
+
+                            <p>data-slider-id="blue"</p>
+                            <input type="text" value="" class="slider form-control" data-slider-min="-200" data-slider-max="200" data-slider-step="5" data-slider-value="[-100,100]" data-slider-orientation="horizontal" data-slider-selection="before" data-slider-tooltip="show" data-slider-id="green">
+
+                            <p>data-slider-id="green"</p>
+                            <input type="text" value="" class="slider form-control" data-slider-min="-200" data-slider-max="200" data-slider-step="5" data-slider-value="[-100,100]" data-slider-orientation="horizontal" data-slider-selection="before" data-slider-tooltip="show" data-slider-id="yellow">
+
+                            <p>data-slider-id="yellow"</p>
+                            <input type="text" value="" class="slider form-control" data-slider-min="-200" data-slider-max="200" data-slider-step="5" data-slider-value="[-100,100]" data-slider-orientation="horizontal" data-slider-selection="before" data-slider-tooltip="show" data-slider-id="aqua">
+
+                            <p>data-slider-id="aqua"</p>
+                            <input type="text" value="" class="slider form-control" data-slider-min="-200" data-slider-max="200" data-slider-step="5" data-slider-value="[-100,100]" data-slider-orientation="horizontal" data-slider-selection="before" data-slider-tooltip="show" data-slider-id="purple">
+
+                            <p style="margin-top: 10px">data-slider-id="purple"</p>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                            <input type="text" value="" class="slider form-control" data-slider-min="-200" data-slider-max="200" data-slider-step="5" data-slider-value="[-100,100]" data-slider-orientation="vertical" data-slider-selection="before" data-slider-tooltip="show" data-slider-id="red">
+                            <input type="text" value="" class="slider form-control" data-slider-min="-200" data-slider-max="200" data-slider-step="5" data-slider-value="[-100,100]" data-slider-orientation="vertical" data-slider-selection="before" data-slider-tooltip="show" data-slider-id="blue">
+                            <input type="text" value="" class="slider form-control" data-slider-min="-200" data-slider-max="200" data-slider-step="5" data-slider-value="[-100,100]" data-slider-orientation="vertical" data-slider-selection="before" data-slider-tooltip="show" data-slider-id="green">
+                            <input type="text" value="" class="slider form-control" data-slider-min="-200" data-slider-max="200" data-slider-step="5" data-slider-value="[-100,100]" data-slider-orientation="vertical" data-slider-selection="before" data-slider-tooltip="show" data-slider-id="yellow">
+                            <input type="text" value="" class="slider form-control" data-slider-min="-200" data-slider-max="200" data-slider-step="5" data-slider-value="[-100,100]" data-slider-orientation="vertical" data-slider-selection="before" data-slider-tooltip="show" data-slider-id="aqua">
+                            <input type="text" value="" class="slider form-control" data-slider-min="-200" data-slider-max="200" data-slider-step="5" data-slider-value="[-100,100]" data-slider-orientation="vertical" data-slider-selection="before" data-slider-tooltip="show" data-slider-id="purple">
+                        </div>
+                    </div>
+                </div>
+                <!-- /.box-body -->
             </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-                <div class="row">
-                    <div class="col-xs-6 col-md-3 text-center">
-                        <input type="text" class="knob" value="30" data-width="90" data-height="90"
-                               data-fgColor="#3c8dbc">
-
-                        <div class="knob-label">New Visitors</div>
-                    </div>
-                    <!-- ./col -->
-                    <div class="col-xs-6 col-md-3 text-center">
-                        <input type="text" class="knob" value="70" data-width="90" data-height="90"
-                               data-fgColor="#f56954">
-
-                        <div class="knob-label">Bounce Rate</div>
-                    </div>
-                    <!-- ./col -->
-                    <div class="col-xs-6 col-md-3 text-center">
-                        <input type="text" class="knob" value="-80" data-min="-150" data-max="150" data-width="90"
-                               data-height="90" data-fgColor="#00a65a">
-
-                        <div class="knob-label">Server Load</div>
-                    </div>
-                    <!-- ./col -->
-                    <div class="col-xs-6 col-md-3 text-center">
-                        <input type="text" class="knob" value="40" data-width="90" data-height="90"
-                               data-fgColor="#00c0ef">
-
-                        <div class="knob-label">Disk Space</div>
-                    </div>
-                    <!-- ./col -->
-                </div>
-                <!-- /.row -->
-
-                <div class="row">
-                    <div class="col-xs-6 text-center">
-                        <input type="text" class="knob" value="90" data-width="90" data-height="90"
-                               data-fgColor="#932ab6">
-
-                        <div class="knob-label">Bandwidth</div>
-                    </div>
-                    <!-- ./col -->
-                    <div class="col-xs-6 text-center">
-                        <input type="text" class="knob" value="50" data-width="90" data-height="90"
-                               data-fgColor="#39CCCC">
-
-                        <div class="knob-label">CPU</div>
-                    </div>
-                    <!-- ./col -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.box-body -->
+            <!-- /.box -->
         </div>
-        <!-- /.box -->
+        <!-- /.col -->
     </div>
-    <!-- /.col -->
-</div>
-<!-- /.row -->
-
-<div class="row">
-    <div class="col-xs-12">
-        <div class="box box-solid">
-            <div class="box-header">
-                <i class="fa fa-bar-chart-o"></i>
-
-                <h3 class="box-title">jQuery Knob Different Sizes</h3>
-
-                <div class="box-tools pull-right">
-                    <button type="button" class="btn btn-default btn-sm" data-widget="collapse"><i
-                            class="fa fa-minus"></i>
-                    </button>
-                    <button type="button" class="btn btn-default btn-sm" data-widget="remove"><i
-                            class="fa fa-times"></i>
-                    </button>
-                </div>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-                <div class="row">
-                    <div class="col-xs-6 col-md-3 text-center">
-                        <input type="text" class="knob" value="30" data-width="90" data-height="90"
-                               data-fgColor="#3c8dbc" data-readonly="true">
-
-                        <div class="knob-label">data-width="90"</div>
-                    </div>
-                    <!-- ./col -->
-                    <div class="col-xs-6 col-md-3 text-center">
-                        <input type="text" class="knob" value="30" data-width="120" data-height="120"
-                               data-fgColor="#f56954">
-
-                        <div class="knob-label">data-width="120"</div>
-                    </div>
-                    <!-- ./col -->
-                    <div class="col-xs-6 col-md-3 text-center">
-                        <input type="text" class="knob" value="30" data-thickness="0.1" data-width="90" data-height="90"
-                               data-fgColor="#00a65a">
-
-                        <div class="knob-label">data-thickness="0.1"</div>
-                    </div>
-                    <!-- ./col -->
-                    <div class="col-xs-6 col-md-3 text-center">
-                        <input type="text" class="knob" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125"
-                               value="30" data-width="120" data-height="120" data-fgColor="#00c0ef">
-
-                        <div class="knob-label">data-angleArc="250"</div>
-                    </div>
-                    <!-- ./col -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.box-body -->
-        </div>
-        <!-- /.box -->
-    </div>
-    <!-- /.col -->
-</div>
-<!-- /.row -->
-
-<div class="row">
-    <div class="col-xs-12">
-        <div class="box box-solid">
-            <div class="box-header">
-                <i class="fa fa-bar-chart-o"></i>
-
-                <h3 class="box-title">jQuery Knob Tron Style</h3>
-
-                <div class="box-tools pull-right">
-                    <button type="button" class="btn btn-default btn-sm" data-widget="collapse"><i
-                            class="fa fa-minus"></i>
-                    </button>
-                    <button type="button" class="btn btn-default btn-sm" data-widget="remove"><i
-                            class="fa fa-times"></i>
-                    </button>
-                </div>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-                <div class="row">
-                    <div class="col-xs-6 col-md-3 text-center">
-                        <input type="text" class="knob" value="80" data-skin="tron" data-thickness="0.2" data-width="90"
-                               data-height="90" data-fgColor="#3c8dbc" data-readonly="true">
-
-                        <div class="knob-label">data-width="90"</div>
-                    </div>
-                    <!-- ./col -->
-                    <div class="col-xs-6 col-md-3 text-center">
-                        <input type="text" class="knob" value="60" data-skin="tron" data-thickness="0.2"
-                               data-width="120" data-height="120" data-fgColor="#f56954">
-
-                        <div class="knob-label">data-width="120"</div>
-                    </div>
-                    <!-- ./col -->
-                    <div class="col-xs-6 col-md-3 text-center">
-                        <input type="text" class="knob" value="10" data-skin="tron" data-thickness="0.1" data-width="90"
-                               data-height="90" data-fgColor="#00a65a">
-
-                        <div class="knob-label">data-thickness="0.1"</div>
-                    </div>
-                    <!-- ./col -->
-                    <div class="col-xs-6 col-md-3 text-center">
-                        <input type="text" class="knob" value="100" data-skin="tron" data-thickness="0.2"
-                               data-angleArc="250" data-angleOffset="-125" data-width="120" data-height="120"
-                               data-fgColor="#00c0ef">
-
-                        <div class="knob-label">data-angleArc="250"</div>
-                    </div>
-                    <!-- ./col -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.box-body -->
-        </div>
-        <!-- /.box -->
-    </div>
-    <!-- /.col -->
-</div>
-<!-- /.row -->
-
-<!-- callout -->
-<div class="callout callout-info">
-    <h4>The following was created using data tags</h4>
-
-    <p>The following three inline (sparkline) chart have been initialized to read and interpret data tags</p>
-</div>
-<!-- /.callout -->
-<div class="row">
-    <div class="col-md-12">
-        <div class="box">
-            <div class="box-header with-border">
-                <h3 class="box-title">jQuery Sparklines</h3>
-            </div>
-            <div class="box-body">
-                <div class="chart">
-                    <p>
-                        This jQuery plugin generates sparklines (small inline charts) directly in the browser using data
-                        supplied either inline in the HTML, or via javascript. </p>
-                    <p>Read more at the website: <a href="http://omnipotent.net/jquery.sparkline/#s-about">http://omnipotent.net/jquery.sparkline/#s-about</a>
-                    </p>
-
-                    <a href="https://github.com/gwatts/jquery.sparkline"><i class="fa fa-github fa-2x"></i> Github
-                        repository</a>
-                </div>
-            </div>
-            <!-- /.box-body -->
-        </div>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-4">
-        <div class="box box-solid">
-            <div class="box-header">
-                <h3 class="box-title text-danger">Sparkline Pie</h3>
-
-                <div class="box-tools pull-right">
-                    <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
-                </div>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body text-center">
-                <div class="sparkline" data-type="pie" data-offset="90" data-width="100px" data-height="100px">
-                    6,4,8
-                </div>
-            </div>
-            <!-- /.box-body -->
-        </div>
-        <!-- /.box -->
-    </div>
-    <!-- /.col -->
-
-    <div class="col-md-4">
-        <div class="box box-solid">
-            <div class="box-header">
-                <h3 class="box-title text-blue">Sparkline line</h3>
-
-                <div class="box-tools pull-right">
-                    <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
-                </div>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body text-center">
-                <div class="sparkline" data-type="line" data-spot-Radius="3" data-highlight-Spot-Color="#f39c12"
-                     data-highlight-Line-Color="#222" data-min-Spot-Color="#f56954" data-max-Spot-Color="#00a65a"
-                     data-spot-Color="#39CCCC" data-offset="90" data-width="100%" data-height="100px"
-                     data-line-Width="2" data-line-Color="#39CCCC" data-fill-Color="rgba(57, 204, 204, 0.08)">
-                    6,4,7,8,4,3,2,2,5,6,7,4,1,5,7,9,9,8,7,6
-                </div>
-            </div>
-            <!-- /.box-body -->
-        </div>
-        <!-- /.box -->
-    </div>
-    <!-- /.col -->
-
-    <div class="col-md-4">
-        <div class="box box-solid">
-            <div class="box-header">
-                <h3 class="box-title text-warning">Sparkline Bar</h3>
-
-                <div class="box-tools pull-right">
-                    <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
-                </div>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body text-center">
-                <div class="sparkline" data-type="bar" data-width="97%" data-height="100px" data-bar-Width="14"
-                     data-bar-Spacing="7" data-bar-Color="#f39c12">
-                    6,4,8, 9, 10, 5, 13, 18, 21, 7, 9
-                </div>
-            </div>
-            <!-- /.box-body -->
-        </div>
-        <!-- /.box -->
-    </div>
-    <!-- /.col -->
-</div>
-<!-- /.row -->
-
-<div class="row">
-    <div class="col-xs-12">
-        <div class="box box-solid">
-            <div class="box-header">
-                <h3 class="box-title">Sparkline examples</h3>
-
-                <div class="box-tools pull-right">
-                    <button type="button" class="btn btn-default btn-sm" data-widget="collapse"><i
-                            class="fa fa-minus"></i>
-                    </button>
-                    <button type="button" class="btn btn-default btn-sm" data-widget="remove"><i
-                            class="fa fa-times"></i>
-                    </button>
-                </div>
-            </div>
-            <!-- /.box-header -->
-            <div id="myBody" class="box-body">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p>
-                            Mouse speed <span id="mousespeed">Loading..</span>
-                        </p>
-
-                        <p>
-                            Inline <span class="sparkline-1">10,8,9,3,5,8,5</span>
-                            line graphs
-                            <span class="sparkline-1">8,4,0,0,0,0,1,4,4,10,10,10,10,0,0,0,4,6,5,9,10</span>
-                        </p>
-
-                        <p>
-                            Bar charts <span class="sparkbar">10,8,9,3,5,8,5</span>
-                            negative values: <span class="sparkbar">-3,1,2,0,3,-1</span>
-                            stacked: <span class="sparkbar">0:2,2:4,4:2,4:1</span>
-                        </p>
-
-                        <p>
-                            Composite inline
-                            <span id="compositeline">8,4,0,0,0,0,1,4,4,10,10,10,10,0,0,0,4,6,5,9,10</span>
-                        </p>
-
-                        <p>
-                            Inline with normal range
-                            <span id="normalline">8,4,0,0,0,0,1,4,4,10,10,10,10,0,0,0,4,6,5,9,10</span>
-                        </p>
-
-                        <p>
-                            Composite bar
-                            <span id="compositebar">4,6,7,7,4,3,2,1,4</span>
-                        </p>
-
-                        <p>
-                            Discrete
-                            <span class="discrete1">4,6,7,7,4,3,2,1,4,4,5,6,7,6,6,2,4,5</span><br>
-
-                            Discrete with threshold
-                            <span id="discrete2">4,6,7,7,4,3,2,1,4</span>
-                        </p>
-
-                        <p>
-                            Bullet charts<br>
-                            <span class="sparkbullet">10,12,12,9,7</span><br>
-                            <span class="sparkbullet">14,12,12,9,7</span><br>
-                            <span class="sparkbullet">10,12,14,9,7</span><br>
-                        </p>
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-sm-6">
-                        <p>
-                            Customize size and colours
-                            <span id="linecustom">10,8,9,3,5,8,5,7</span>
-                        </p>
-
-                        <p>
-                            Tristate charts
-                            <span class="sparktristate">1,1,0,1,-1,-1,1,-1,0,0,1,1</span><br>
-                            (think games won, lost or drawn)
-                        </p>
-
-                        <p>
-                            Tristate chart using a colour map:
-                            <span class="sparktristatecols">1,2,0,2,-1,-2,1,-2,0,0,1,1</span>
-                        </p>
-
-                        <p>
-                            Box Plot: <span class="sparkboxplot">4,27,34,52,54,59,61,68,78,82,85,87,91,93,100</span><br>
-                            Pre-computed box plot <span class="sparkboxplotraw">Loading..</span>
-                        </p>
-
-                        <p>
-                            Pie charts
-                            <span class="sparkpie">1,1,2</span>
-                            <span class="sparkpie">1,5</span>
-                            <span class="sparkpie">20,50,80</span>
-                        </p>
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.box-body -->
-        </div>
-        <!-- /.box -->
-    </div>
-    <!-- /.col -->
-</div>
-<!-- /.row -->
+    <!-- /.row -->
 
         </section>
         <!-- /.content -->
@@ -1126,6 +796,76 @@
 <!-- AdminLTE for demo purposes -->
 <script src="assets/js/demo.js"></script>
 
+<!-- Ion Slider -->
+<script src="assets/plugins/ionslider/ion.rangeSlider.min.js"></script>
+<!-- Bootstrap slider -->
+<script src="assets/plugins/bootstrap-slider/bootstrap-slider.js"></script>
+<script>
+    $(function () {
+        /* BOOTSTRAP SLIDER */
+        $('.slider').slider();
+
+        /* ION SLIDER */
+        $("#range_1").ionRangeSlider({
+            min: 0,
+            max: 5000,
+            from: 1000,
+            to: 4000,
+            type: 'double',
+            step: 1,
+            prefix: "$",
+            prettify: false,
+            hasGrid: true
+        });
+        $("#range_2").ionRangeSlider();
+
+        $("#range_5").ionRangeSlider({
+            min: 0,
+            max: 10,
+            type: 'single',
+            step: 0.1,
+            postfix: " mm",
+            prettify: false,
+            hasGrid: true
+        });
+        $("#range_6").ionRangeSlider({
+            min: -50,
+            max: 50,
+            from: 0,
+            type: 'single',
+            step: 1,
+            postfix: "°",
+            prettify: false,
+            hasGrid: true
+        });
+
+        $("#range_4").ionRangeSlider({
+            type: "single",
+            step: 100,
+            postfix: " light years",
+            from: 55000,
+            hideMinMax: true,
+            hideFromTo: false
+        });
+        $("#range_3").ionRangeSlider({
+            type: "double",
+            postfix: " miles",
+            step: 10000,
+            from: 25000000,
+            to: 35000000,
+            onChange: function (obj) {
+                var t = "";
+                for (var prop in obj) {
+                    t += prop + ": " + obj[prop] + "\r\n";
+                }
+                $("#result").html(t);
+            },
+            onLoad: function (obj) {
+                //
+            }
+        });
+    });
+</script>
 
 </body>
 </html>
