@@ -1,4 +1,4 @@
-#Inspired by AdminLTE Theme https://almsaeedstudio.com/preview
+Inspired by AdminLTE Theme https://almsaeedstudio.com/preview
 
 #Credits
 * [AdminLTE](https://github.com/almasaeed2010/AdminLTE)  - Is a fully responsive admin template.
