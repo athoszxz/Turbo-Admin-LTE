@@ -1,5 +1,4 @@
 var gulp = require('gulp');
-var clean = require('gulp-clean');
 var browserSync = require('browser-sync').create();
 var reload = browserSync.reload;
 var nunjucks = require('gulp-nunjucks-html');
@@ -7,12 +6,6 @@ var less = require('gulp-less');
 var watch = require('gulp-watch');
 var cssmin = require('gulp-cssmin');
 var rename = require('gulp-rename');
-
-// clean all giles
-gulp.task('clean', function () {
-    return gulp.src(['dist/','dist/assets/css','!dist/assets/assets'])
-        .pipe(clean());
-});
 
 gulp.task('serve', ['nunjucks','compile-less'], function () {
 
