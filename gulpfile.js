@@ -8,10 +8,9 @@ var watch = require('gulp-watch');
 var cssmin = require('gulp-cssmin');
 var rename = require('gulp-rename');
 
-const PROJECT_NAME = 'turbolte';
-
+// clean all giles
 gulp.task('clean', function () {
-    return gulp.src(['dist/app','dist/assets/css/turbolte.css'])
+    return gulp.src(['dist/','dist/assets/css','!dist/assets/assets'])
         .pipe(clean());
 });
 
