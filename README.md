@@ -1,5 +1,29 @@
 Inspired by AdminLTE Theme https://almsaeedstudio.com/preview
 
+## Installation
+
+Install npm dependencies
+
+```shell
+npm install 
+```
+
+
+Run gulp
+
+```shell
+gulp
+```
+
+
+
+### Template
+
+Turbo Admin LTE use Nunjuks.
+> Nunjucks is a full featured templating engine for javascript. It is heavily inspired by jinja2. View the docs [here](https://mozilla.github.io/nunjucks/).
+
+
+
 #Credits
 * [AdminLTE](https://github.com/almasaeed2010/AdminLTE)  - Is a fully responsive admin template.
 * [Bootstrap](http://getbootstrap.com/)  - css front-end framework.
